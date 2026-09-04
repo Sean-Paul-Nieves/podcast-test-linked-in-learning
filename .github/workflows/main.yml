@@ -11,7 +11,7 @@ jobs:
       - name: Run Feed Generator
         run: python feed.py
       - name: Push to Repository
-        run:
+        run: |
           git config user.name Sean-Paul-Nieves
           git config user.email snnieves@fit.edu.ph
           git add .
